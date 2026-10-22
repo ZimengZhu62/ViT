@@ -1,0 +1,87 @@
+This is an experiment conducted by chatgpt,while I gave it my own design on "position".
+But my design failed at last(I was hoping A-D could be a stable positive number but actually it did not.)
+However,during the initial and middle stage of training my design did reach the same level as the standard approach,
+but at the cost of more training time.These statistics were gone so I didn't put them here.
+So in general it's like garbage but it's just that I wanted to record my first failed idea.
+TARTING FORMAL 10K RUN
+========================================================================
+
+[checkpoint 1] evaluating...
+epoch     1 | D=27.420% | A=27.294% | A-D=-0.127 pp | elapsed=0.00h
+
+[checkpoint 3] evaluating...
+epoch     3 | D=29.783% | A=30.484% | A-D=+0.700 pp | elapsed=0.00h
+
+[checkpoint 6] evaluating...
+epoch     6 | D=30.878% | A=31.542% | A-D=+0.664 pp | elapsed=0.00h
+
+[checkpoint 10] evaluating...
+epoch    10 | D=31.329% | A=33.361% | A-D=+2.032 pp | elapsed=0.00h
+
+[checkpoint 20] evaluating...
+epoch    20 | D=32.472% | A=34.919% | A-D=+2.446 pp | elapsed=0.01h
+ETA to 10000: 3.12 h
+
+[checkpoint 30] evaluating...
+epoch    30 | D=33.345% | A=35.524% | A-D=+2.179 pp | elapsed=0.01h
+ETA to 10000: 3.07 h
+
+[checkpoint 50] evaluating...
+epoch    50 | D=34.311% | A=35.853% | A-D=+1.543 pp | elapsed=0.02h
+ETA to 10000: 3.02 h
+
+[checkpoint 75] evaluating...
+epoch    75 | D=34.812% | A=36.072% | A-D=+1.260 pp | elapsed=0.02h
+ETA to 10000: 2.99 h
+
+[checkpoint 100] evaluating...
+epoch   100 | D=35.189% | A=36.222% | A-D=+1.033 pp | elapsed=0.03h
+ETA to 10000: 2.96 h
+
+[checkpoint 150] evaluating...
+epoch   150 | D=35.547% | A=36.338% | A-D=+0.791 pp | elapsed=0.04h
+ETA to 10000: 2.93 h
+
+[checkpoint 200] evaluating...
+epoch   200 | D=35.750% | A=36.359% | A-D=+0.608 pp | elapsed=0.06h
+ETA to 10000: 3.04 h
+
+[checkpoint 300] evaluating...
+epoch   300 | D=36.002% | A=36.436% | A-D=+0.434 pp | elapsed=0.09h
+ETA to 10000: 2.99 h
+
+[checkpoint 500] evaluating...
+epoch   500 | D=36.228% | A=36.544% | A-D=+0.316 pp | elapsed=0.15h
+ETA to 10000: 2.90 h
+
+[checkpoint 750] evaluating...
+epoch   750 | D=36.463% | A=36.587% | A-D=+0.124 pp | elapsed=0.23h
+ETA to 10000: 2.80 h
+
+[checkpoint 1000] evaluating...
+epoch  1000 | D=36.541% | A=36.655% | A-D=+0.115 pp | elapsed=0.30h
+ETA to 10000: 2.70 h
+
+[checkpoint 1500] evaluating...
+epoch  1500 | D=36.683% | A=36.712% | A-D=+0.029 pp | elapsed=0.45h
+ETA to 10000: 2.53 h
+
+[checkpoint 2000] evaluating...
+epoch  2000 | D=36.682% | A=36.738% | A-D=+0.056 pp | elapsed=0.60h
+ETA to 10000: 2.41 h
+
+[checkpoint 3000] evaluating...
+epoch  3000 | D=36.794% | A=36.788% | A-D=-0.006 pp | elapsed=0.92h
+ETA to 10000: 2.15 h
+
+[checkpoint 5000] evaluating...
+epoch  5000 | D=36.900% | A=36.775% | A-D=-0.125 pp | elapsed=1.51h
+ETA to 10000: 1.51 h
+
+[checkpoint 7500] evaluating...
+epoch  7500 | D=36.910% | A=36.871% | A-D=-0.039 pp | elapsed=2.28h
+ETA to 10000: 0.76 h
+
+[checkpoint 10000] evaluating...
+epoch 10000 | D=37.066% | A=36.908% | A-D=-0.158 pp | elapsed=3.03h
+ETA to 10000: 0.00 h
